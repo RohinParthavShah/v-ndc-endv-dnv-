@@ -1,0 +1,42 @@
+
+    body{
+    background:skyblue;
+    color:blue;
+
+    }
+   
+
+h1
+{
+    color: blue;
+    background-color: white;
+}
+
+#show_sketch{
+    float: right;
+}
+
+canvas
+{
+    border:5px double blue;
+    border-radius: 20px;
+animation-name: example;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+margin-top: 50px;
+
+
+
+
+
+}
+
+@keyframes example{
+    from{ box-shadow: 5px 5px 20px white;
+
+    }
+    to{box-shadow: 5px 5px 20px darkblue;}
+
+}
+
+
